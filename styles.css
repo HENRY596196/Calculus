@@ -1,0 +1,23 @@
+/* ...existing code... */
+.topbar{
+  display:flex;
+  align-items:center;
+  justify-content:center; /* 導覽置中 */
+  width:100%;
+  max-width:1200px;
+  margin: 0 auto;
+  padding: 8px 12px;
+  box-sizing: border-box;
+}
+
+.topbar nav{
+  flex:1;
+  display:flex;
+  justify-content:center; /* 導覽項目水平置中 */
+  gap:8px;
+}
+
+.counter-wrapper{
+  margin-left:auto; /* 推到最右側 */
+}
+/* ...existing code... */
