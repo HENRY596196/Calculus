@@ -20,8 +20,8 @@
                         <th>無名小卒</th>
                     </tr>
                 </table>
-                    <!-- <p>本頁瀏覽次數：<span id="counter"></span></p>
-                    <script src="counter.js"></script> -->
+                    <!--<p>本頁瀏覽次數：<span id="counter"></span></p>
+                    <script src="counter.js"></script>-->
                 <ol class="cn">
                     <li>
                         <a href="#觀念">概念</a>
@@ -43,7 +43,7 @@
                             <li><a href="#f12">雙曲函數</a></li>
                             <li><a href="#f13">反雙曲函數</a></li>
                         </ol>
-                    </li>
+                    </li> 
                     <li>
                         <a href="#limit">極限</a>
                         <ol>
@@ -100,14 +100,13 @@
                 </ol>
                 <hr>
                 <ul>
-                    <li>版本為 : v1.3</li>
+                    <li>版本為 : </li>
                     <li><a href="htm/Version-History.htm">Version History</a></li></ul>
                 <br>
                 <br>
                 <br>
                 <br>
             </aside>
-
             <main>
                 <h1>微積分Calculus</h1>
                 <hr style="border: 3px solid black;">
@@ -163,27 +162,8 @@
                                             <li>
                                                 method 1 : 利用定義, 假設
                                                 <math>
-                                                    <mi>f</mi>
-                                                    <mo stretchy="false">(</mo>
-                                                    <mi>x</mi>
-                                                    <mn>1</mn>
-                                                    <mo stretchy="false">)</mo>
-                                                    <mo>=</mo>
-                                                    <mi>f</mi>
-                                                    <mo stretchy="false">(</mo>
-                                                    <mi>x</mi>
-                                                    <mn>2</mn>
-                                                    <mo stretchy="false">)</mo>
-                                                    <mo stretchy="false">⟹</mo>
-                                                    <mo>...</mo>
-                                                    <mo stretchy="false">⟹</mo>
-                                                    <mi>x</mi>
-                                                    <mn>1</mn>
-                                                    <mo>=</mo>
-                                                    <mi>x</mi>
-                                                    <mn>2</mn>
+                                                    <mi>f</mi><mo stretchy="false">(</mo><mi>x</mi><mn>1</mn><mo stretchy="false">)</mo><mo>=</mo><mi>f</mi><mo stretchy="false">(</mo><mi>x</mi><mn>2</mn><mo stretchy="false">)</mo><mo stretchy="false">⟹</mo><mo>...</mo><mo stretchy="false">⟹</mo><mi>x</mi><mn>1</mn><mo>=</mo><mi>x</mi><mn>2</mn>
                                                 </math>
-
                                             </li>
                                             <li>
                                                 method 2 : 利用導數(後面講微分時再談)
@@ -191,12 +171,9 @@
                                         </ol>
                                     </li>
                                 </ol>
-                                
                             </li>
-
                         </ol>
                             
-
                     <h3 id="f4">多項式函數(Polynomial function)</h3>
                         <h4>多項式定義</h4>
                             <p>非負整數次冪,有限項的線性組合。多項式變數 <math><mi>x</mi></math> 為非負整數次冪,有限項的線性組合。多項式<math><mi>f</mi><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></math> 中變數<math><mi>x</mi></math> 最高次的次數,稱為多項式 <math><mi>f</mi><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></math> 的次數,我們以deg{<math><mi>f</mi><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></math>} 來表示。</p>
@@ -207,120 +184,21 @@
                                         <td rowspan="3">基礎</td>
                                         <td>
                                             <math>
-                                                <msup>
-                                                    <mi>x</mi>
-                                                    <mn>2</mn>
-                                                </msup>
-                                                <mo>−</mo>
-                                                <msup>
-                                                    <mi>y</mi>
-                                                    <mn>2</mn>
-                                                </msup>
-                                                <mo>=</mo>
-                                                <mo stretchy="false">(</mo>
-                                                <mi>x</mi>
-                                                <mo>+</mo>
-                                                <mi>y</mi>
-                                                <mo stretchy="false">)</mo>
-                                                <mo stretchy="false">(</mo>
-                                                <mi>x</mi>
-                                                <mo>−</mo>
-                                                <mi>y</mi>
-                                                <mo stretchy="false">)</mo>
+                                                <msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><msup><mi>y</mi><mn>2</mn></msup><mo>=</mo><mo stretchy="false">(</mo><mi>x</mi><mo>+</mo><mi>y</mi><mo stretchy="false">)</mo><mo stretchy="false">(</mo><mi>x</mi><mo>−</mo><mi>y</mi><mo stretchy="false">)</mo>
                                             </math>
                                         </td>
                                     </tr>
                                     <tr>
                                         <td>
                                             <math>
-                                                <msup>
-                                                    <mi>x</mi>
-                                                    <mn>3</mn>
-                                                </msup>
-                                                <mo>−</mo>
-                                                <msup>
-                                                    <mi>y</mi>
-                                                    <mn>3</mn>
-                                                </msup>
-                                                <mo>=</mo>
-                                                <mo stretchy="false">(</mo>
-                                                <mi>x</mi>
-                                                <mo>−</mo>
-                                                <mi>y</mi>
-                                                <mo stretchy="false">)</mo>
-                                                <mo stretchy="false">(</mo>
-                                                <msup>
-                                                    <mi>x</mi>
-                                                    <mn>2</mn>
-                                                </msup>
-                                                <mo>+</mo>
-                                                <mi>x</mi>
-                                                <mi>y</mi>
-                                                <mo>+</mo>
-                                                <msup>
-                                                    <mi>y</mi>
-                                                    <mn>2</mn>
-                                                </msup>
-                                                <mo stretchy="false">)</mo>
+                                                <msup><mi>x</mi><mn>3</mn></msup><mo>−</mo><msup><mi>y</mi><mn>3</mn></msup><mo>=</mo><mo stretchy="false">(</mo><mi>x</mi><mo>−</mo><mi>y</mi><mo stretchy="false">)</mo><mo stretchy="false">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>x</mi><mi>y</mi><mo>+</mo><msup><mi>y</mi><mn>2</mn></msup><mo stretchy="false">)</mo>
                                             </math>
                                         </td>
                                     </tr>
                                     <tr>
                                         <td>
                                             <math>
-                                                <msup>
-                                                    <mi>x</mi>
-                                                    <mrow>
-                                                        <mn>n</mn>
-                                                    </mrow>
-                                                </msup>
-                                                <mo>−</mo>
-                                                <msup>
-                                                    <mi>y</mi>
-                                                    <mrow>
-                                                        <mi>n</mi>
-                                                    </mrow>
-                                                </msup>
-                                                <mo>=</mo>
-                                                <mo stretchy="false">(</mo>
-                                                <mi>x</mi>
-                                                <mo>−</mo>
-                                                <mi>y</mi>
-                                                <mo stretchy="false">)</mo>
-                                                <mo stretchy="false">(</mo>
-                                                <mrow>
-                                                    <mstyle displaystyle="false" scriptlevel="0">
-                                                        <munderover><mo data-mjx-texclass="OP">∑</mo>
-                                                            <mrow>
-                                                                <mi>k</mi>
-                                                                <mo>=</mo>
-                                                                <mn>0</mn>
-                                                            </mrow>
-                                                            <mrow>
-                                                                <mi>n</mi>
-                                                                <mo>−</mo>
-                                                                <mn>1</mn>
-                                                            </mrow>
-                                                        </munderover>
-                                                    </mstyle>
-                                                </mrow>
-                                                <msup>
-                                                    <mi>x</mi>
-                                                    <mrow>
-                                                        <mi>n</mi>
-                                                        <mo>−</mo>
-                                                        <mn>1</mn>
-                                                        <mo>+</mo>
-                                                        <mi>k</mi>
-                                                    </mrow>
-                                                </msup>
-                                                <msup>
-                                                    <mi>y</mi>
-                                                    <mrow>
-                                                        <mi>k</mi>
-                                                    </mrow>
-                                                </msup>
-                                                <mo stretchy="false">)</mo>
+                                                <msup><mi>x</mi><mrow><mn>n</mn></mrow></msup><mo>−</mo><msup><mi>y</mi><mrow><mi>n</mi></mrow></msup><mo>=</mo><mo stretchy="false">(</mo><mi>x</mi><mo>−</mo><mi>y</mi><mo stretchy="false">)</mo><mo stretchy="false">(</mo><mrow><mstyle displaystyle="false" scriptlevel="0"><munderover><mo data-mjx-texclass="OP">∑</mo><mrow><mi>k</mi><mo>=</mo><mn>0</mn></mrow><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></munderover></mstyle></mrow><msup><mi>x</mi><mrow><mi>n</mi><mo>−</mo><mn>1</mn><mo>+</mo><mi>k</mi></mrow></msup><msup><mi>y</mi><mrow><mi>k</mi></mrow></msup><mo stretchy="false">)</mo>
                                             </math>
                                         </td>
                                     </tr>
@@ -328,100 +206,17 @@
                                         <td rowspan="2">進階</td>
                                         <td>
                                             <math>
-                                                <msqrt>
-                                                    <mi>x</mi>
-                                                </msqrt>
-                                                <mo>−</mo>
-                                                <msqrt>
-                                                    <mi>y</mi>
-                                                </msqrt>
-                                                <mo>=</mo>
-                                                <mfrac>
-                                                    <mrow>
-                                                        <mi>x</mi>
-                                                        <mo>−</mo>
-                                                        <mi>y</mi>
-                                                    </mrow>
-                                                    <mrow>
-                                                        <msqrt>
-                                                            <mi>x</mi>
-                                                        </msqrt>
-                                                        <mo>+</mo>
-                                                        <msqrt>
-                                                            <mi>y</mi>
-                                                        </msqrt>
-                                                    </mrow>
-                                                </mfrac>
-                                                <mo>，</mo>
-                                                <mi mathvariant="normal">∀</mi>
-                                                <mi>x</mi>
-                                                <mo>,</mo>
-                                                <mi>y</mi>
-                                                <mi>ϵ</mi>
-                                                <mi>Q</mi>
+                                                <msqrt><mi>x</mi></msqrt><mo>−</mo><msqrt><mi>y</mi></msqrt><mo>=</mo><mfrac><mrow><mi>x</mi><mo>−</mo><mi>y</mi></mrow><mrow><msqrt><mi>x</mi></msqrt><mo>+</mo><msqrt><mi>y</mi></msqrt></mrow></mfrac><mo>，</mo><mi mathvariant="normal">∀</mi><mi>x</mi><mo>,</mo><mi>y</mi><mi>ϵ</mi><mi>Q</mi>
                                             </math>
                                         </td>
                                     </tr>
                                     <tr>
                                         <td>
                                             <math>
-                                                <mroot>
-                                                    <mi>x</mi>
-                                                    <mn>3</mn>
-                                                </mroot>
-                                                <mo>−</mo>
-                                                <mroot>
-                                                    <mi>y</mi>
-                                                    <mn>3</mn>
-                                                </mroot>
-                                                <mo>=</mo>
-                                                <mfrac>
-                                                    <mrow>
-                                                        <mi>x</mi>
-                                                        <mo>−</mo>
-                                                        <mi>y</mi>
-                                                    </mrow>
-                                                    <mrow>
-                                                        <mroot>
-                                                            <msup>
-                                                                <mi>x</mi>
-                                                                <mrow>
-                                                                    <mn>2</mn>
-                                                                </mrow>
-                                                            </msup>
-                                                            <mn>3</mn>
-                                                        </mroot>
-                                                        <mo>+</mo>
-                                                        <mroot>
-                                                            <mrow>
-                                                                <mi>x</mi>
-                                                                <mi>y</mi>
-                                                            </mrow>
-                                                            <mn>3</mn>
-                                                        </mroot>
-                                                        <mo>+</mo>
-                                                        <mroot>
-                                                            <msup>
-                                                                <mi>y</mi>
-                                                                <mrow>
-                                                                    <mn>2</mn>
-                                                                </mrow>
-                                                            </msup>
-                                                            <mn>3</mn>
-                                                        </mroot>
-                                                    </mrow>
-                                                </mfrac>
-                                                <mo>，</mo>
-                                                <mi mathvariant="normal">∀</mi>
-                                                <mi>x</mi>
-                                                <mo>,</mo>
-                                                <mi>y</mi>
-                                                <mi>ϵ</mi>
-                                                <mi>Q</mi>
+                                                <mroot><mi>x</mi><mn>3</mn></mroot><mo>−</mo><mroot><mi>y</mi><mn>3</mn></mroot><mo>=</mo><mfrac><mrow><mi>x</mi><mo>−</mo><mi>y</mi></mrow><mrow><mroot><msup><mi>x</mi><mrow><mn>2</mn></mrow></msup><mn>3</mn></mroot><mo>+</mo><mroot><mrow><mi>x</mi><mi>y</mi></mrow><mn>3</mn></mroot><mo>+</mo><mroot><msup><mi>y</mi><mrow><mn>2</mn></mrow></msup><mn>3</mn></mroot></mrow></mfrac><mo>，</mo><mi mathvariant="normal">∀</mi><mi>x</mi><mo>,</mo><mi>y</mi><mi>ϵ</mi><mi>Q</mi>
                                             </math>
                                         </td>
                                     </tr>
-
                                 </table>
                             </p>
                             <p></p>
@@ -429,13 +224,23 @@
                             <h4>奇函數</h4>
                             <h4>偶函數</h4>
 
-                    <h3 id="f6">分式函數(Rational algebraic function)</h3>
+                    <h3 id="f6">分式函數(Rational algebraic function)</h3> 
 
                     <h3 id="f7">合成函數(composite function)</h3>
+                        <ol>
+                            <li>
+                                何謂合成函數?
+                                <p></p>
+                            </li>
+                            <li>
+
+                            </li>
+                        </ol>
 
                     <h3 id="f8">反函數(Inverse function)</h3>
 
                     <h3 id="f9">指數(Exponential function)與對數函數(Logarithmic function)</h3>
+                        <h4></h4>
 
                     <h3 id="f10">三角函數(Trigonometric function)</h3>
 
@@ -446,7 +251,6 @@
                     <h3 id="f13">反雙曲函數(Inverse Hyperbolic function)</h3> 
 
                 <hr>
-
                 <h2 id="limit" style="margin: 0 auto; text-align: center;">極限</h2>
                     <h3>極限的定義</h3>
                         <p>
@@ -459,70 +263,140 @@
                             時 ，<math><mi>f</mi><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></math> 趨近多少？」
                             這類問題；嚴謹地需要使用 <math><mi>ε</mi><mo>–</mo><mi>δ</mi></math> 語言來刻畫「任意接近」的含義。
                         </p>
-                    <h3>極限的表示法</h3>
-                        <p>極限通常表示為：</p>
-                        <math>
-                            <munder>
-                                <mo data-mjx-texclass="OP" movablelimits="true">lim</mo>
-                                <mrow>
-                                    <mi>x</mi>
-                                    <mo accent="false" stretchy="false">→</mo>
-                                    <mi>a</mi>
-                                </mrow>
-                            </munder>
-                            <mrow>
-                                <mi>f</mi>
-                                <mo stretchy="false">(</mo>
-                                <mi>x</mi>
-                                <mo stretchy="false">)</mo>
-                            </mrow>
-                            <mo>=</mo>
-                            <mi>L</mi>
-                        </math>
-                        <p>表示當x接近a時，函數f(x)的值趨近於L。</p>
-                        <p>此極限的ε-δ定義</p>
-                        <math>
-                            <mi mathvariant="normal">∀</mi>
-                            <mi>ε</mi>
-                            <mo>&gt;</mo>
-                            <mn>0</mn>
-                            <mo>,</mo>
-                            <mi mathvariant="normal">∃</mi>
-                            <mi>δ</mi>
-                            <mo>&gt;</mo>
-                            <mn>0</mn>
-                            <mo>,</mo>
-                            <mo>∋</mo>
-                            <mn>0</mn>
-                            <mo>&lt;</mo>
-                            <mrow>
-                                <mo stretchy="false">|</mo>
-                            </mrow>
-                            <mi>x</mi>
-                            <mo>−</mo>
-                            <mi>a</mi>
-                            <mrow>
-                                <mo stretchy="false">|</mo>
-                            </mrow>
-                            <mo>&lt;</mo>
-                            <mi>δ</mi>
-                            <mo stretchy="false">⇒</mo>
-                            <mrow>
-                                <mo stretchy="false">|</mo>
-                            </mrow>
-                            <mi>f</mi>
-                            <mo stretchy="false">(</mo>
-                            <mi>x</mi>
-                            <mo stretchy="false">)</mo>
-                            <mo>−</mo>
-                            <mi>L</mi>
-                            <mrow>
-                                <mo stretchy="false">|</mo>
-                            </mrow>
-                            <mo>&lt;</mo>
-                            <mi>ε</mi>
-                        </math>
-                        <p>即對於任意小的正數ε，存在一個正數δ，使得當自變量x與極限點a的距離小於δ時，函數f(x)與極限值L的距離小於ε。</p>
+                    <h3>  <math><mi>ε</mi><mo>–</mo><mi>δ</mi><mo>–</mo><mo>definition</mo></math></h3>
+                        <ol>
+                            <li>概論 :
+                                <ol> 
+                                    <li>常見的數學及邏輯符號 :
+                                        <ol>
+                                            <li>
+                                                <math><mi>ε</mi><mo>、</mo><mi>δ</mi></math>表任意微小的正實數。<math><mi>M</mi><mo>、</mo><mi>N</mi></math>表任意很大的正實數。
+                                            </li>
+                                            <li>
+                                                對稱鄰近區域(symmetric neighborhood) :<br>
+                                                &nbsp;&nbsp;&nbsp;&nbsp;<math><msub><mi>N</mi><mn><mi>ε</mi></mn></msub><mo stretchy="false">(</mo><mi>l</mi><mo stretchy="false">)</mo><mo>=</mo>
+                                                    <mo stretchy="false">(</mo><mi>L</mi><mo>-</mo><mi>ε</mi><mo>,</mo><mi>L</mi><mo>+</mo><mi>ε</mi><mo stretchy="false">)</mo>
+                                                    <mo>=</mo><mo>{</mo><mi>f</mi><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo><mo> | </mo><mi>L</mi><mo>-</mo><mi>ε</mi><mo><</mo><mi>f</mi><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo><mo><</mo><mi>L</mi><mo>+</mo><mi>ε</mi><mo>}</mo>
+                                                    <mo>=</mo><mo>{</mo><mi>f</mi><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo><mo> | </mo><mo>|</mo><mi>f</mi><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo><mo>-</mo><mi>L</mi><mo>|</mo><mo><</mo><mi>ε</mi><mo>}</mo>
+                                                </math>
+                                            </li>
+                                            <li>
+                                                去心對稱鄰近區域(punctured symmetric neighborhood) :<br>
+                                                &nbsp;&nbsp;&nbsp;&nbsp;<math><msubsup><mi>N</mi><mrow><mi>δ</mi></mrow><mrow><mo>∗</mo></mrow></msubsup><mo stretchy="false">(</mo><mi>a</mi><mo stretchy="false">)</mo>
+                                                    <mo>=</mo><msubsup><mi>N</mi><mrow><mi>δ</mi></mrow><mrow><mo>′</mo></mrow></msubsup><mo stretchy="false">(</mo><mi>a</mi><mo stretchy="false">)</mo>
+                                                    <mo>=</mo><mo stretchy="false">(</mo><mi>a</mi><mo> - </mo><mi>δ</mi><mo> , </mo><mi>a</mi><mo stretchy="false">)</mo><mo>∪</mo><mo stretchy="false">(</mo><mi>a</mi><mo> , </mo><mi>a</mi><mo> + </mo><mi>δ</mi><mo stretchy="false">)</mo>
+                                                    <mo>=</mo><mo>{</mo><mi>x</mi><mo> | </mo><mi>a</mi><mo>-</mo><mi>δ</mi><mo><</mo><mi>x</mi><mo><</mo><mo>a 或</mo><mi>a</mi><mo><</mo><mi>x</mi><mo><</mo><mo>a</mo><mo>+</mo><mi>δ</mi><mo>}</mo>
+                                                    <mo>=</mo><mo>{</mo><mi>x</mi><mo> | </mo><mi>0</mi><mo><</mo><mo>|</mo><mi>x</mi><mo>-</mo><mo>a</mo><mo>|</mo><mo><</mo><mi>δ</mi><mo>}</mo>
+                                                </math>
+                                            </li>
+                                            <li>
+                                                <math><mi mathvariant="normal">∀</mi><mo> : for all( 所有的 )</mo><mo> ; </mo>
+                                                    <mo>∋</mo><mo> : such that( 使得 s.t. )</mo><mo> ; </mo>
+                                                    <mi mathvariant="normal">∃</mi><mo> : exist( 存在 )</mo>
+                                                </math>
+                                            </li>
+                                        </ol>
+                                    </li>
+                                    <li>
+                                        基本工具 : 
+                                        <ol>
+                                            <li>以多項式來表示另一多項式。</li>
+                                            <li>
+                                                <math>
+                                                    <mi>0</mi><mo><</mo><mi>δ</mi><mo>≤</mo><mi>1</mi>
+                                                    <mo stretchy="false">⇒</mo><msup><mi>δ</mi><mn>n</mn></msup><mo>≤</mo><mi>δ</mi><mo> ; </mo><mo stretchy="false">(</mo><mo>n</mo><mo>∈</mo><mi>N</mi><mo stretchy="false">)</mo>
+                                                </math>
+                                            </li>
+                                            <li>
+                                                <math>
+                                                    <msubsup><mi>N</mi><mrow><msub><mi>δ</mi><mn>1</mn></msub></mrow><mrow><mo>′</mo></mrow></msubsup><mo stretchy="false">(</mo><mi>a</mi><mo stretchy="false">)</mo><mo>&#x2229;</mo><msubsup><mi>N</mi><mrow><msub><mi>δ</mi><mn>2</mn></msub></mrow><mrow><mo>′</mo></mrow></msubsup><mo stretchy="false">(</mo><mi>a</mi><mo stretchy="false">)</mo><mo>=</mo><msubsup><mi>N</mi><mrow><mi>δ</mi></mrow><mrow><mo>′</mo></mrow></msubsup><mo stretchy="false">(</mo><mi>a</mi><mo stretchy="false">)</mo>
+                                                    <mo> , 其中</mo><mi>δ</mi><mo>= min</mo><mo>{</mo><msub><mi>δ</mi><mn>1</mn></msub><mo> , </mo><msub><mi>δ</mi><mn>2</mn></msub><mo>}</mo>
+                                                </math>
+                                            </li>
+                                            <li>
+                                                <math>
+                                                    <mo>[</mo><msub><mi>k</mi><mn>1</mn></msub><mo> , </mo><mi mathvariant="normal">∞</mi><mo>)</mo><mo>&#x2229;</mo><mo>[</mo><msub><mi>k</mi><mn>2</mn></msub><mo> , </mo><mi mathvariant="normal">∞</mi><mo>)</mo>
+                                                    <mo> , 其中</mo><mi>k</mi><mo>= max</mo><mo>{</mo><msub><mi>k</mi><mn>1</mn></msub><mo> , </mo><msub><mi>k</mi><mn>2</mn></msub><mo>}</mo>
+                                                </math>
+                                            </li>
+                                            <li>
+                                                三角不等式(Triangle inequality) : <br>
+                                                <math><mo>|</mo><mi>|</mi><mi>x</mi><mi>|</mi><mi>-</mi><mi>|</mi><mi>y</mi><mi>|</mi><mo>|</mo></math>
+                                                <math><mo>≤</mo><mi>|</mi><mi>x</mi><mo>±</mo><mi>y</mi><mi>|</mi></math>
+                                                <math><mo>≤</mo><mi>|</mi><mi>x</mi><mi>|</mi><mo>+</mo><mi>|</mi><mi>y</mi><mi>|</mi></math> ; 
+                                                <math>
+                                                    <mi>|</mi><mi>x</mi><mi>±</mi><mi>y</mi><mi>±</mi><mi>z</mi><mi>|</mi>
+                                                    <mo>≤</mo><mi>|</mi><mi>x</mi><mi>|</mi><mo>+</mo><mi>|</mi><mi>y</mi><mi>|</mi><mo>+</mo><mi>|</mi><mi>z</mi><mi>|</mi>
+                                                </math>
+                                                
+                                            </li>
+                                        </ol>
+                                    </li>
+                                    <li>定義 : 
+                                        <table border="1">
+                                            <tr>
+                                                <td colspan="2">
+                                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<math><munder><mo data-mjx-texclass="OP" movablelimits="true">lim</mo><mrow><mi>x</mi><mo accent="false" stretchy="false">→</mo><mi>a</mi></mrow></munder><mrow><mi>f</mi><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></mrow><mo>=</mo><mi>L</mi></math>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td><mo stretchy="false">⟺</mo></td>
+                                                <td>
+                                                    &nbsp;&nbsp;<mi mathvariant="normal">∀</mi><mi>ε</mi><mo>&gt;</mo><mn>0</mn><mo>,</mo>
+                                                    <mi mathvariant="normal">∃</mi><mi>δ</mi><mo>&gt;</mo><mn>0</mn><mo>,</mo>
+                                                    <mo>∋</mo><mn>0</mn><mo>&lt;</mo><mrow><mo stretchy="false">|</mo></mrow><mi>x</mi><mo>−</mo><mi>a</mi><mrow><mo stretchy="false">|</mo></mrow><mo>&lt;</mo><mi>δ</mi>
+                                                    <mo stretchy="false">⇒</mo><mrow><mo stretchy="false">|</mo></mrow><mi>f</mi><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo><mo>−</mo><mi>L</mi><mrow><mo stretchy="false">|</mo></mrow><mo>&lt;</mo><mi>ε</mi>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td><mo stretchy="false">⟺</mo></td>
+                                                <td>
+                                                    "For all <math><mi>ε</mi><mo>&gt;</mo><mn>0</mn></math>, there exists a <math><mi>δ</mi><mo>&gt;</mo><mn>0</mn></math>, <br>
+                                                    &nbsp;&nbsp;such that <math><mn>0</mn><mo>&lt;</mo><mrow><mo stretchy="false">|</mo></mrow><mi>x</mi><mo>−</mo><mi>a</mi><mrow><mo stretchy="false">|</mo></mrow><mo>&lt;</mo><mi>δ</mi></math> ,
+                                                    then <math><mrow><mo stretchy="false">|</mo></mrow><mi>f</mi><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo><mo>−</mo><mi>L</mi><mrow><mo stretchy="false">|</mo></mrow><mo>&lt;</mo><mi>ε</mi></math>.<br>
+                                                    &nbsp;&nbsp;We say that the limit of <math><mi>f</mi><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></math> as <math><mi>x</mi></math> approaches a is <math><mi>L</mi></math>, and we write <math><munder><mo data-mjx-texclass="OP" movablelimits="true">lim</mo><mrow><mi>x</mi><mo accent="false" stretchy="false">→</mo><mi>a</mi></mrow></munder><mrow><mi>f</mi><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></mrow><mo>=</mo><mi>L</mi></math>"
+                                                </td>
+                                            </tr>
+                                        </table><br>
+                                        <table border="1">
+                                            <tr>
+                                                <td colspan="2">
+                                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<math><munder><mo data-mjx-texclass="OP" movablelimits="true">lim</mo><mrow><mi>x</mi><mo accent="false" stretchy="false">→</mo><mi>a</mi></mrow></munder><mrow><mi>f</mi><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></mrow><mo>=</mo><mi mathvariant="normal">±∞</mi></math>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td><mo stretchy="false">⟺</mo></td>
+                                                <td>
+                                                    &nbsp;&nbsp;<mi mathvariant="normal">∀</mi><mi>M</mi><mo>&gt;</mo><mn>0</mn><mo>,</mo>
+                                                    <mi mathvariant="normal">∃</mi><mi>δ</mi><mo>&gt;</mo><mn>0</mn><mo>,</mo>
+                                                    <mo>∋</mo><mn>0</mn><mo>&lt;</mo><mrow><mo stretchy="false">|</mo></mrow><mi>x</mi><mo>−</mo><mi>a</mi><mrow><mo stretchy="false">|</mo></mrow><mo>&lt;</mo><mi>δ</mi>
+                                                    <mo stretchy="false">⇒</mo><mrow><mo stretchy="false">|</mo></mrow><mi>f</mi><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo><mo stretchy="false">|</mo></mrow><mo>&lt;</mo><mi>M</mi>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td><mo stretchy="false">⟺</mo></td>
+                                                <td>
+                                                    "For all <math><mi>M</mi><mo>&gt;</mo><mn>0</mn></math>, there exists a <math><mi>δ</mi><mo>&gt;</mo><mn>0</mn></math>, <br>
+                                                    &nbsp;&nbsp;such that <math><mn>0</mn><mo>&lt;</mo><mrow><mo stretchy="false">|</mo></mrow><mi>x</mi><mo>−</mo><mi>a</mi><mrow><mo stretchy="false">|</mo></mrow><mo>&lt;</mo><mi>δ</mi></math> ,
+                                                    then <math><mrow><mo stretchy="false">|</mo></mrow><mi>f</mi><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo><mrow><mo stretchy="false">|</mo></mrow><mo>&lt;</mo><mi>M</mi></math>."
+                                                </td>
+                                            </tr>
+                                        </table><br> 
+                                        <table border="1">
+                                            <tr>
+                                                <td></td>
+                                            </tr>
+                                        </table>
+                                    </li>
+                                </ol>
+                            </li>
+                            
+                        </ol>
+                    <h3>左極限與又極限</h3>
+                        <ol>
+                            <li></li>
+                        </ol>
+
                     <h3>極限的性質</h3>
                     
                         <ul>
@@ -531,7 +405,7 @@
                             </li>
                             <li>四則運算：<br>
                                 極限的和、差、積、商的極限可以分別計算(但有條件)。
-                                <table border="1" >
+                                <table border="1">
                                     <tr>
                                         <th>運算</th>
                                         <th>極限表示式</th>
@@ -978,7 +852,7 @@
                         </ol>
                         
                     <hr>
-                <h2 id="continuity">連續</h2>
+                                    <!-- <h2 id="continuity">連續</h2>
                     <h3>函數連續的定義</h3>
                         <p>函數f(x)在點x=a處連續的定義為：</p>
                         <math>
@@ -1982,7 +1856,6 @@
                                         <mo>是積分常數</mo>
                                     </math>
                                 </p>
-
                             <h3>定積分的定義</h3>
                             <p>定積分是指在區間[a, b]上對函數進行積分，表示為：</p>
                                 <math>
@@ -2885,6 +2758,7 @@
                                     </ul>
                                 </li>
                             </ul>
+
                 <h2 id="h2-6" style="margin: 0 auto; text-align: center;">資料參考</h2>
                     <ul>
                         <li><a href="https://zh.wikipedia.org/zh-tw/%E5%87%BD%E6%95%B0">函數 - 維基百科</a></li>
@@ -2905,5 +2779,4 @@
         <!-- <script src="js/counter.js"></script> -->
         <script src="js/sidebar.js"></script>
     </body>
-
 </html>
