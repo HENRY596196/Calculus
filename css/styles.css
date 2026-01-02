@@ -227,3 +227,12 @@ address{
   margin: 0 auto; 
   text-align: center;
 }
+
+/*  */
+.toc-box {
+  position: sticky;
+  top: 100px;
+  background-color: #fdfdfd;
+  z-index: 1;
+}
+
